@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: MyFont;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: url(./Geologica-VariableFont_CRSV\,SHRP\,slnt\,wght.ttf);
+}
+
+
+
+.first-container {
+    background: url(./images/desktop/image-header.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    border-radius: 20px; /
+}
+
+.menu-buttons {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end;
+    gap: 40px;
+    margin-right: 100px;
+}
+
+.menu-buttons a {
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.first-h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex-grow: 1; 
+    color: white;
+    margin: 80px;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+#logo {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 150px;
+}
